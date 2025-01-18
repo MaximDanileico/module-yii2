@@ -29,7 +29,7 @@
         "codemix/yii2-localeurls": "^1.7",
         "codeception/module-asserts": "^3.0",
         "codeception/module-filesystem": "^3.0",
-        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan": "^1.10"
     },
     "autoload":{
         "classmap": ["src/"]
