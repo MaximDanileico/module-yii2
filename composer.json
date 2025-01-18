@@ -1,5 +1,5 @@
 {
-    "name":"codeception/module-yii2",
+    "name":"maximdanileico/module-yii2",
     "description":"Codeception module for Yii2 framework",
     "keywords":["codeception", "yii2"],
     "homepage":"https://codeception.com/",
@@ -18,17 +18,16 @@
     ],
     "minimum-stability": "RC",
     "require": {
-        "php": "^8.0",
-        "codeception/codeception": "^5.0.8",
-        "codeception/lib-innerbrowser": "^3.0 | ^4.0"
+        "php": ">=8.4",
+        "codeception/codeception": "^5.1"
     },
     "require-dev": {
         "yiisoft/yii2": "dev-master",
         "yiisoft/yii2-app-advanced": "dev-master",
         "codeception/verify": "^3.0",
         "codemix/yii2-localeurls": "^1.7",
-        "codeception/module-asserts": ">= 3.0",
-        "codeception/module-filesystem": "> 3.0",
+        "codeception/module-asserts": "^3.0",
+        "codeception/module-filesystem": "^3.0",
         "phpstan/phpstan": "^1.10"
     },
     "autoload":{
