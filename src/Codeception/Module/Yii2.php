@@ -11,6 +11,7 @@ use Codeception\Lib\Connector\Yii2\TransactionForcer;
 use Codeception\Lib\Framework;
 use Codeception\Lib\Interfaces\ActiveRecord;
 use Codeception\Lib\Interfaces\MultiSession;
+use Codeception\Lib\Interfaces\ORM;
 use Codeception\Lib\Interfaces\PartedModule;
 use Codeception\TestInterface;
 use Symfony\Component\DomCrawler\Crawler as SymfonyCrawler;
@@ -166,7 +167,7 @@ use yii\web\IdentityInterface;
  * Stability: **stable**
  *
  */
-class Yii2 extends Framework implements ActiveRecord, MultiSession, PartedModule
+class Yii2 extends Framework implements ActiveRecord, MultiSession, PartedModule, ORM
 {
     /**
      * Application config file must be set.
