@@ -19,16 +19,15 @@
     "minimum-stability": "RC",
     "require": {
         "php": ">=8.4",
-        "codeception/codeception": "^5.1",
-        "codeception/lib-innerbrowser": "^4.0"
+        "codeception/codeception": "^5.0.0 || ^4.0",
+        "codeception/module-filesystem": "^2.0 || ^1.1"
     },
     "require-dev": {
         "yiisoft/yii2": "dev-master",
         "yiisoft/yii2-app-advanced": "dev-master",
-        "codeception/verify": "^3.0",
+        "codeception/verify": "^2.2",
         "codemix/yii2-localeurls": "^1.7",
-        "codeception/module-asserts": "^3.0",
-        "codeception/module-filesystem": "^3.0",
+        "codeception/module-asserts": "^3.0 || ^1.1",
         "phpstan/phpstan": "^1.10"
     },
     "autoload":{
