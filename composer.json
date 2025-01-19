@@ -20,7 +20,7 @@
     "require": {
         "php": ">=8.4",
         "codeception/codeception": "^5.1",
-        "codeception/lib-innerbrowser": "*"
+        "codeception/lib-innerbrowser": "^4.0"
     },
     "require-dev": {
         "yiisoft/yii2": "dev-master",
